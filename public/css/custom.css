@@ -10,7 +10,7 @@
 
 
 .text-popup {
-    animation: textPopup 6s cubic-bezier(0.4, 0, 0.2, 1);
+    animation: textPopup 10s cubic-bezier(0.4, 0, 0.2, 1);
     color: red;
     user-select: none;
     white-space: nowrap;
@@ -20,15 +20,15 @@
 @keyframes textPopup {
     0% {
         opacity: 1;
-        transform: translateY(0) scale(1);
+        transform: translateY(0);
     }
-    35% {
+    25% {
         opacity: 1;
-        transform: translateY(-200px) scale(1.2);
+        transform: translateY(-100px);
     }
     100% {
         opacity: 0;
-        transform: translateY(-1000px) scale(1.5);    
+        transform: translateY(-1000px);    
     }
 }
 
