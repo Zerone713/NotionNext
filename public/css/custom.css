@@ -22,9 +22,6 @@
         opacity: 1;
         transform: translateY(0);
     }
-    25% {
-        opacity: 1;
-        transform: translateY(-100px);
     }
     100% {
         opacity: 0;
